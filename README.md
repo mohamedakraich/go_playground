@@ -16,7 +16,7 @@
 - Not only is shortcut declaration shorter, you can take it places where `var` can’t go.
 - Variables declared on the same line as a `for`, `if`, or `switch` are in scope until the end of that statement.
 - A wide scope is better than a narrow scope in some situations—and vice versa.
-
+#
 - UDP server => `func ListenPacket(network, address string) (PacketConn, error)`
 
 ## Useful Commands
