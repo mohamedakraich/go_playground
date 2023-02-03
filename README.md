@@ -27,3 +27,5 @@
 - go doc net.Dial
 - go doc -u net.protocols
 - go doc net | grep Lookup
+- go test -test.v -run "Timeout|KeepAlive" -count=1 $(go env GOROOT)/src/net
+- go test -list "Timeout|KeepAlive" $(go env GOROOT)/src/net
